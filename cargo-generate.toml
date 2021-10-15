@@ -1,0 +1,4 @@
+[template]
+ignore = [ 
+  ".github/workflows/build_template.yml",
+]
