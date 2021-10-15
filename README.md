@@ -1,13 +1,14 @@
 # CosmWasm Minimal Starter Pack
 
+
+This template contains almost the absolute minimum you need to get going with a CosmWasm smart contract in Rust. There is a specific focus put on it to be very barebones and this template is based on the [cw-template](https://raw.githubusercontent.com/CosmWasm/cw-template) by CosmWasm.
+
 This is an opinionated template to build smart contracts in Rust to run inside a
 [Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
 To understand the framework better, please read the overview in the
 [cosmwasm repo](https://github.com/CosmWasm/cosmwasm/blob/master/README.md),
 and dig into the [cosmwasm docs](https://www.cosmwasm.com).
 This assumes you understand the theory and just want to get coding.
-
-This template contains almost the absolute minimum you need to get going with a rust smart contract. There is a specific focus put on it to be very barebones and this template is based on the [cw-template](https://raw.githubusercontent.com/CosmWasm/cw-template) by CosmWasm.
 
 ## Creating a new repo from template
 
@@ -30,7 +31,7 @@ Go to the folder in which you want to place it and run:
 **Latest: 0.16**
 
 ```sh
-cargo generate --git https://github.com/CosmWasm/cw-template.git --name PROJECT_NAME
+cargo generate --git https://github.com/0xFable/cw-minimal-template.git --name PROJECT_NAME
 ````
 
 You will now have a new folder called `PROJECT_NAME` (I hope you changed that to something else)
